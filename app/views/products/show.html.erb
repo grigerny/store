@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:price) %>:</strong></dt>
   <dd><%= @product.price %></dd>
 </dl>
-
+<span class="label label-success">Buy Now!</span>
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               products_path, :class => 'btn'  %>
